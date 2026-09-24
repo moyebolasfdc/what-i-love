@@ -8,10 +8,16 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="hero">
-    <p class="eyebrow">Deployment Strategist</p>
-    <h1>Propel</h1>
+
+  <nav class="topnav">
+    <a class="brand" href="#top">Propel</a>
+    <a class="nav-cta" href="#intake">Schedule a call</a>
+  </nav>
+
+  <header class="hero" id="top">
+    <h1>Ship your roadmap<br>with certainty.</h1>
     <p class="sub">Consulting on scope, then delivering the outcome — removing the impediments sitting between your roadmap and results, on both the financial and technical side.</p>
+    <a class="hero-cta" href="#intake">Schedule a call</a>
   </header>
 
   <section class="atlo-explainer">
@@ -126,6 +132,27 @@
     </section>
 
   </main>
+
+  <section class="intake" id="intake">
+    <h2>Schedule time with us</h2>
+    <p>Tell us what's blocking your roadmap — technical or financial — and we'll follow up to schedule a call.</p>
+    <!-- TODO: replace with your real inbox, or swap this action for a hosted form service (e.g. Formspree) for a smoother submit experience. -->
+    <form class="intake-form" action="mailto:hello@propel.dev" method="POST" enctype="text/plain">
+      <label>Name
+        <input type="text" name="Name" required>
+      </label>
+      <label>Work email
+        <input type="email" name="Email" required>
+      </label>
+      <label>Company
+        <input type="text" name="Company">
+      </label>
+      <label>What's blocking your roadmap?
+        <textarea name="Message" rows="4" required></textarea>
+      </label>
+      <button type="submit">Send</button>
+    </form>
+  </section>
 
   <footer>
     <p>A consulting practice for teams stalled on a technical or financial roadmap impediment · <a href="https://github.com/moyebolasfdc/what-i-love">source</a></p>
