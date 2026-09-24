@@ -35,8 +35,10 @@ deployable package. Reports exclusively to the Team Lead.
 **Release & Build Engineer.** In a DevOps organization this is the person who
 owns the CI pipeline's build stage — turning a set of intended changes into a
 versioned, dependency-correct artifact that's ready for the test stage.
-Aerospace analogy: ATLO's **Assembly** phase, where piece parts are bolted
-together into the deployable unit before anything gets tested.
+In Propel's ATLO model, this is the **Assembly** phase: turning an intended
+change into a single, correctly-bounded deployable unit before it's ever put
+in front of a test — the difference between a roadmap item that's "in
+progress" and one that's actually ready to ship.
 
 ## Escalates, never resolves alone
 

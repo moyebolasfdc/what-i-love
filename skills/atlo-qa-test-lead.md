@@ -37,9 +37,10 @@ exclusively to the Team Lead.
 **SRE / Continuous Test Engineer.** In a DevOps organization this is the
 person who owns the pipeline's test gate — static scans before anything
 runs live, then chaos/destructive testing and trace-based verification
-before a release is trusted. Aerospace analogy: ATLO's **Test** phase, the
-severe-environment simulation that proves the assembled unit survives worse
-than it will actually face live.
+before a release is trusted. In Propel's ATLO model, this is the **Test** phase: proving the assembled
+unit survives conditions harsher than it will actually face in production,
+so a release is trusted because it was proven — not because it looked fine
+in a demo.
 
 ## Known gaps it cites, not re-litigates
 

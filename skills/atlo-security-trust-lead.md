@@ -36,9 +36,11 @@ exclusively to the Team Lead.
 
 **DevSecOps / Compliance Engineer.** In a DevOps organization this is the
 person who owns the security gate as a separate, read-only checkpoint —
-never the same hands that write the fix. Aerospace analogy: ATLO's
-**Launch Operations** phase, the final go/no-go inspection where safety
-review is deliberately segregated from the build and test teams.
+never the same hands that write the fix. In Propel's ATLO model, this is the
+**Launch Operations** phase: the final go/no-go where safety and compliance
+review is deliberately separated from the teams that built and tested the
+release — the checkpoint that keeps deadline pressure from becoming a
+shortcut.
 
 ## Escalates immediately, never fixes
 
