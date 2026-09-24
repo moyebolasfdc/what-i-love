@@ -46,6 +46,28 @@ body {
   line-height: 1.5;
 }
 
+.atlo-explainer {
+  max-width: 680px;
+  margin: 0 auto 56px;
+  padding: 0 24px;
+  text-align: center;
+}
+
+.atlo-explainer h2 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  color: var(--muted);
+  margin: 0 0 10px;
+}
+
+.atlo-explainer p {
+  color: var(--text);
+  line-height: 1.6;
+  font-size: 1rem;
+  margin: 0;
+}
+
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -122,6 +144,14 @@ body {
   text-transform: uppercase;
   letter-spacing: .05em;
   margin: 0 0 12px;
+}
+
+.card .persona {
+  color: var(--text);
+  font-size: .85rem;
+  font-weight: 600;
+  margin: 0 0 12px;
+  opacity: .85;
 }
 
 .card .desc {
